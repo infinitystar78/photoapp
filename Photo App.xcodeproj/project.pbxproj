@@ -14,6 +14,17 @@
 		CEE9820229083C1C00BCD07C /* Photo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9820129083C1C00BCD07C /* Photo_AppTests.swift */; };
 		CEE9820C29083C1C00BCD07C /* Photo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9820B29083C1C00BCD07C /* Photo_AppUITests.swift */; };
 		CEE9820E29083C1C00BCD07C /* Photo_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9820D29083C1C00BCD07C /* Photo_AppUITestsLaunchTests.swift */; };
+		CEE9821B2908A38400BCD07C /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9821A2908A38400BCD07C /* PhotoViewModel.swift */; };
+		CEE9821D2908BE0D00BCD07C /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9821C2908BE0D00BCD07C /* PhotoLibrary.swift */; };
+		CEE9821F2909F54900BCD07C /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9821E2909F54900BCD07C /* PhotoAssetCollection.swift */; };
+		CEE982212909F8AB00BCD07C /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE982202909F8AB00BCD07C /* PhotoAsset.swift */; };
+		CEE98259290AA98200BCD07C /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98258290AA98200BCD07C /* ViewModifiers.swift */; };
+		CEE9825B290AA9F000BCD07C /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9825A290AA9F000BCD07C /* View+Extension.swift */; };
+		CEE98261290ACDB700BCD07C /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98260290ACDB700BCD07C /* CachedImageManager.swift */; };
+		CEE98263290ACE0C00BCD07C /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98262290ACE0C00BCD07C /* PhotoView.swift */; };
+		CEE98265290ACF6100BCD07C /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98264290ACF6100BCD07C /* PhotoItemView.swift */; };
+		CEE98267290AEC2D00BCD07C /* VisionSaliency.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98266290AEC2D00BCD07C /* VisionSaliency.swift */; };
+		CEE9826A290B27F700BCD07C /* VisionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98269290B27F700BCD07C /* VisionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		CEE9820729083C1C00BCD07C /* Photo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE9820B29083C1C00BCD07C /* Photo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_AppUITests.swift; sourceTree = "<group>"; };
 		CEE9820D29083C1C00BCD07C /* Photo_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEE9821A2908A38400BCD07C /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		CEE9821C2908BE0D00BCD07C /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		CEE9821E2909F54900BCD07C /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		CEE982202909F8AB00BCD07C /* PhotoAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		CEE98258290AA98200BCD07C /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		CEE9825A290AA9F000BCD07C /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		CEE98260290ACDB700BCD07C /* CachedImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		CEE98262290ACE0C00BCD07C /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		CEE98264290ACF6100BCD07C /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		CEE98266290AEC2D00BCD07C /* VisionSaliency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionSaliency.swift; sourceTree = "<group>"; };
+		CEE98269290B27F700BCD07C /* VisionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				CEE981F029083C1B00BCD07C /* Photo_AppApp.swift */,
-				CEE981F229083C1B00BCD07C /* ContentView.swift */,
+				CEE98266290AEC2D00BCD07C /* VisionSaliency.swift */,
+				CEE9825C290AA9F500BCD07C /* Extensions */,
+				CEE98258290AA98200BCD07C /* ViewModifiers.swift */,
+				CEE98260290ACDB700BCD07C /* CachedImageManager.swift */,
+				CEE9825F290ACC0500BCD07C /* Views */,
+				CEE98268290B27DF00BCD07C /* Models */,
 				CEE981F429083C1C00BCD07C /* Assets.xcassets */,
 				CEE981F629083C1C00BCD07C /* Preview Content */,
 			);
@@ -125,6 +152,36 @@
 				CEE9820D29083C1C00BCD07C /* Photo_AppUITestsLaunchTests.swift */,
 			);
 			path = "Photo AppUITests";
+			sourceTree = "<group>";
+		};
+		CEE9825C290AA9F500BCD07C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9825A290AA9F000BCD07C /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEE9825F290ACC0500BCD07C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEE981F229083C1B00BCD07C /* ContentView.swift */,
+				CEE98262290ACE0C00BCD07C /* PhotoView.swift */,
+				CEE98264290ACF6100BCD07C /* PhotoItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEE98268290B27DF00BCD07C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9821A2908A38400BCD07C /* PhotoViewModel.swift */,
+				CEE9821E2909F54900BCD07C /* PhotoAssetCollection.swift */,
+				CEE982202909F8AB00BCD07C /* PhotoAsset.swift */,
+				CEE98269290B27F700BCD07C /* VisionModel.swift */,
+				CEE9821C2908BE0D00BCD07C /* PhotoLibrary.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +314,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE9821D2908BE0D00BCD07C /* PhotoLibrary.swift in Sources */,
+				CEE98259290AA98200BCD07C /* ViewModifiers.swift in Sources */,
+				CEE9821F2909F54900BCD07C /* PhotoAssetCollection.swift in Sources */,
 				CEE981F329083C1B00BCD07C /* ContentView.swift in Sources */,
+				CEE98267290AEC2D00BCD07C /* VisionSaliency.swift in Sources */,
+				CEE9825B290AA9F000BCD07C /* View+Extension.swift in Sources */,
+				CEE98263290ACE0C00BCD07C /* PhotoView.swift in Sources */,
+				CEE9826A290B27F700BCD07C /* VisionModel.swift in Sources */,
+				CEE98265290ACF6100BCD07C /* PhotoItemView.swift in Sources */,
+				CEE982212909F8AB00BCD07C /* PhotoAsset.swift in Sources */,
+				CEE98261290ACDB700BCD07C /* CachedImageManager.swift in Sources */,
+				CEE9821B2908A38400BCD07C /* PhotoViewModel.swift in Sources */,
 				CEE981F129083C1B00BCD07C /* Photo_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +488,7 @@
 				DEVELOPMENT_TEAM = XJCP9X6F2C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app let's you browse your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +518,7 @@
 				DEVELOPMENT_TEAM = XJCP9X6F2C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app let's you browse your photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
