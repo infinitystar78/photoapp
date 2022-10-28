@@ -42,9 +42,11 @@ The prupose of this object ois request images foir a given PHAsset.
 - Refactoring and tidying up, move the saliency method out of he PhotoView to a the VisionModel.
 - Add tests, Unit test and UITests, with modfications around dependency injection and protocols so that testing can be easily performed.
 - Performance analysis, test and optimise performance.
-- Try to improve animations.
+- Try to improve animations, experiment with types and duration.
 - Add additional functionality using Photokit, such as editing, deleting, favouriting etc.
 - Explore Saliency analysis, perhaps adding a tab for object based saliency.
+- Investigate if adding the bounding box to the Image by using CALayer on a UIImage in custom, UIViewRepresentable is a better way to achieve the bouding box.
+- Add video support.
 
 
 
