@@ -27,7 +27,7 @@ PhotoView is the main photo view that is presented when you select a photo from 
 ### CachedImageManager 
 
 - is a modifed version provided by the sample code on the Apple Developer site, the main modificaiton is to return a CGImage for the saliency analysis.
-The prupose of this object ois request images foir a given PHAsset.
+The prupose of this object is to request images for a given PHAsset id.
 
 ## Models
 
