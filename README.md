@@ -47,6 +47,7 @@ The prupose of this object ois request images foir a given PHAsset.
 - Explore Saliency analysis, perhaps adding a tab for object based saliency.
 - Investigate if adding the bounding box to the Image by using CALayer on a UIImage in custom, UIViewRepresentable is a better way to achieve the bouding box.
 - Add video support.
+- Add a message or indication when no focus / attention is detected.
 
 
 
